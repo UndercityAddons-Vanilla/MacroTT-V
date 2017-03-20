@@ -1,0 +1,8 @@
+## Interface: 11200
+## Title: Macro Tooltips |cff0000aa(Vanilla)|r
+## Notes: Create tooltips for your macros (fills in for missing #showtooltip in Vanilla WoW)
+## Author: Fulzamoth
+## Version: 1.0.0
+## Dependencies:
+
+main.lua
