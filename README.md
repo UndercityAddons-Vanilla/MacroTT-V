@@ -16,7 +16,7 @@ Displays the tooltip for item currently equipped in the equipment slot. Equipmen
 Displays a tooltip with the custom header text. This is usually followed by additional text (`/mtta`)
 
 **/mtta &lt;additional text&gt;**
-Adds the additional text to any of the above tooltips. Multiple `/mtta` lines can be used.
+Adds the additional text to any of the above tooltips. Multiple `/mtta` lines can be used and blank lines are valid.
 
 Note that ***macro names must be unique***. The addon finds macros by name to read the macro body (*GetActionInfo* wasn't available until patch 2.0.1).
 
