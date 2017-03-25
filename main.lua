@@ -14,6 +14,14 @@
 
 --------------------------------------------------]]--
 
+
+SLASH_MACROTT1="/mtts";
+SLASH_MACROTT2="/mtte";
+SLASH_MACROTT3="/mttc";
+SLASH_MACROTT4="/mtta";
+SlashCmdList["MACROTT"] = function(Flag) 
+end
+	
 function trim(s)
   return (string.gsub(s,"^%s*(.-)%s*$", "%1"))
 end
