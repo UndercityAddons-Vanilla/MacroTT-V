@@ -1,6 +1,6 @@
 # Macro Tooltips [MacroTT-V] for Vanilla WoW
 
-Create custom tooltips in macros. MacroTT fills in for the missing *#showtooltip* command that isn't World of Warcraft 1.12 doesn't have.
+Create custom tooltips in macros. MacroTT fills in for the missing *#showtooltip* command that World of Warcraft 1.12 doesn't have.
 
 ## Usage
 
