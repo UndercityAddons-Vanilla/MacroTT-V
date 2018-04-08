@@ -88,7 +88,9 @@ function ActionButton_SetTooltip()
             spellSlot = spellSlot + 1
           end
           GameTooltip:SetSpell(rankedSpellSlot,"player")
-          GameTooltip:AddLine("(" .. spellHighRank ..")",0.5,0.5,0.5)
+          if not (spellHighRank == '') then
+            GameTooltip:AddLine("(" .. spellHighRank ..")",0.5,0.5,0.5)
+          end
           this.updateTooltip = TOOLTIP_UPDATE_TIME;
           customTooltip = true
           break
